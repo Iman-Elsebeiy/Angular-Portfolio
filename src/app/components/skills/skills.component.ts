@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './skills.component.css'
 })
 export class SkillsComponent {
+  skills ={
+
+      name: 'PHP',
+      level: '80%',
+  }
 
 }

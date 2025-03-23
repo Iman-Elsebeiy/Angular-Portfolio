@@ -2,10 +2,10 @@
   <h2 class="text-center">My Skills</h2>
 
   <div class="my-3">
-    <label class="fw-bold">PHP (80%)</label>
+    <label class="fw-bold">{{ skills.name}} ({{ skills.level}})</label>
     <div class="progress">
       <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
-           role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+           role="progressbar" [style.width]="skills.level" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
       </div>
     </div>
   </div>
